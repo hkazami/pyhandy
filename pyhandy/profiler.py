@@ -3,9 +3,6 @@ import io
 import pstats
 
 
-def get_profiler():
-    return cProfile.Profile()
-    
 class Profiler(object):
     def __init__(self, filepath):
         self.cprofiler = cProfile.Profile()
