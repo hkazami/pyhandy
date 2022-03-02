@@ -2,11 +2,10 @@
     Utility functions for better development experience.
 
     Usage:
-        - Import this file to the main program:
-            `from CameramanRemover.utils.pdb import register_pdb_hook`
-        - Activate the pdb hook:
-            `register_pdb_hook()`
+        - Import this file to the main program
+        - Activate the pdb hook: `register_pdb_hook()`
 """
+
 import sys
 
 
